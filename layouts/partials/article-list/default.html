@@ -1,0 +1,17 @@
+{{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
+{{ $isMemo := false }}
+{{ $categories := .Params.categories }}
+
+{{ range $categories }}
+    {{ if eq . "memo" }}
+        {{ $isMemo = true }}
+    {{ end }}
+{{ end }}
+<article class="{{ if $image.exists }}has-image{{ end }}">
+     
+    {{ if $isMemo }}
+            {{ partial "article/components/memo" . }} 
+    {{ else }}
+        {{ partial "article/components/header" . }}
+    {{ end }}
+</article>

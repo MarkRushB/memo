@@ -1,3 +1,21 @@
 /*
     You can add your own custom styles here.
 */
+
+ .article-category a {
+    background: #445d4c !important;
+    color: #fff;
+}
+
+.article-list {
+    gap: 25px;
+}
+
+.article-content {
+    color: var(--accent-color);
+}
+
+.article-details .article-content img {
+    max-width: 100%;
+    height: auto;
+}
