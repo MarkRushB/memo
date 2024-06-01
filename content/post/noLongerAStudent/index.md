@@ -19,6 +19,4 @@ categories:
 
 再见我的学生时代，我会永远怀念你。
 
-<center>
-<img src="image1.jpeg" width="50%" height="50%">
-</center>
+![no longer a student](image1.jpeg)
