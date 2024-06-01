@@ -19,4 +19,4 @@ categories:
 
 再见我的学生时代，我会永远怀念你。
 
-![nolongerastudent](image1.jpg)
+![nolongerastudent](image1.jpeg)
