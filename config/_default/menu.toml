@@ -6,6 +6,14 @@
 # [main.params]
 # icon = "home"
 # newtab = true
+[[main]]
+identifier = "memo"
+name = "Memo"
+url = "/categories/memo/"
+[main.params]
+icon = "home"
+newtab = false
+
 
 # [[social]]
 # identifier = "github"
