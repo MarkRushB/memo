@@ -51,8 +51,8 @@ default = "Licensed under CC BY-NC-SA 4.0"
 # [widgets.homepage.params]
 # limit = 10
 
-# [[widgets.page]]
-# type = "toc"
+[[widgets.page]]
+type = "toc"
 
 [opengraph.twitter]
 site = ""
