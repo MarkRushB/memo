@@ -99,11 +99,4 @@ main.main {
         padding: 0 20px;
     }
 
-    @include respond(lg) {
-        padding: 0 20px;
-    }
-
-    @include respond(xl) {
-        padding: 0 10%;
-    }
 }
